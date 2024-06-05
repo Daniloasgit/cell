@@ -1,0 +1,91 @@
+.fundo {
+    list-style: none;
+ background-image: url(tablet.png);
+ background-position-y:30px ;
+ background-position-x:center;
+background-size: 900px;
+background-repeat: no-repeat;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: #012e87;
+    transition: 0.5s;
+}
+a:hover {
+    color: #9c0202;
+}
+
+.logo {
+    padding-left:825px;
+    padding-top:150px ;
+
+}
+
+.escritura {
+    margin: 30px 750px 30px 750px;
+    padding-left: 25px;
+    padding-bottom: 150px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.titulo {
+    text-align: center;
+font-size: 35px;
+   
+}
+
+.titu2 {
+    font-size: 25px;
+}
+
+.botao {
+    margin-top: 5px;
+    width: 250px;
+    height: 35px;
+    font-size: 25px;
+}
+
+
+.escritura-sobre {
+    margin: 200px 750px 30px 750px;
+    padding-left: 25px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.botao-sobre {
+    margin-top: 5px;
+    width: 250px;
+    height: 35px;
+    font-size: 25px;
+    margin-left: 825px;
+}
+
+.escritura-login {
+    margin: 300px 750px 30px 750px;
+    padding-left: 25px;
+    padding-bottom: 150px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.botao-login{
+    margin-top: 5px;
+    width: 250px;
+    height: 35px;
+    font-size: 25px;
+    margin-left: 10px;
+
+}
+
+
+.digitado {
+    padding: 5px 40px 5px 40px;
+    text-align: center;
+
+}
+
