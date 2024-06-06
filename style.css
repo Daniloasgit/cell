@@ -43,10 +43,15 @@ font-size: 35px;
 }
 
 .botao {
+    border-radius: 20px;
     margin-top: 5px;
     width: 250px;
     height: 35px;
     font-size: 25px;
+}
+button:hover {
+    background-color:rgb(70, 70, 70);
+    color: white;
 }
 
 
@@ -58,6 +63,7 @@ font-size: 35px;
 }
 
 .botao-sobre {
+    border-radius: 20px;
     margin-top: 5px;
     width: 250px;
     height: 35px;
@@ -66,7 +72,7 @@ font-size: 35px;
 }
 
 .escritura-login {
-    margin: 300px 750px 30px 750px;
+    margin: 300px;
     padding-left: 25px;
     padding-bottom: 150px;
     text-align: center;
@@ -74,6 +80,7 @@ font-size: 35px;
 }
 
 .botao-login{
+    border-radius: 20px;
     margin-top: 5px;
     width: 250px;
     height: 35px;
@@ -86,6 +93,54 @@ font-size: 35px;
 .digitado {
     padding: 5px 40px 5px 40px;
     text-align: center;
+width: 200px; ;
+}
+
+.titulo-regi {
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    bottom: 50px;
+}
+
+.botao-regi {
+    border-radius: 20px;
+    margin-top: 25px;
+    width: 250px;
+    height: 35px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.formu {
+
+}
+/* ///////////////gastos//////////////////*/
+.tabela {
+    border: 2px solid #ffffff;
+    border-collapse:separate;
+    width: 20%;
+margin-left: 765px;
+text-align: center;
+}
+
+td{
+    border: 1px solid #ffffff;
+    padding: 5px;
+}
+
+.bot-gest {
+    padding-left: 750px;
 
 }
 
+.botao-gest {
+    border-radius: 20px;
+    display: grid;
+    margin-top: 25px;
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 30px;
+   align-items: center;
+    
+}
